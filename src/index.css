@@ -13,7 +13,7 @@ body,
 }
 
 .anticon.anticon-left,
-.anticon.anticon-right { /* Fixed a typo here */
+.anticon.anticon-right {
   @apply text-white;
 }
 
@@ -23,4 +23,25 @@ li .ant-pagination-item:not(.ant-pagination-item-active) > a {
 
 span .ant-pagination-item-ellipsis {
   background-color: white !important;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
 }

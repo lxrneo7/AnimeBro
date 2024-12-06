@@ -114,7 +114,7 @@ const Schedule: React.FC = () => {
 
 const getDayStyle = (day: number) => {
   switch (day) {
-    case 0: return "bg-red-500"; 
+    case 0: return "bg-violet-500"; 
     case 1: return "bg-orange-500"; 
     case 2: return "bg-yellow-500"; 
     case 3: return "bg-green-500"; 
